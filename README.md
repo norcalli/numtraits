@@ -1,3 +1,7 @@
+# numtraits
+
+## Overview
+
 This module defines a trait `UpCastAs<T>` which allows one to upcast (as in only types which make sense
 and can fit it another are allowed) between primitive types. These follow a simple hierarchy:
 
@@ -11,7 +15,7 @@ which is `UpCastAs<u64>` implies it can be cast from `u32` since `u64 > u32`. An
 scheme, `UpCastAs<f64>` means it can be cast from a `f64`, which would mean it can be up cast
 from any number type.
 
-# Examples
+## Examples
 
 Examples of `cast`:
 
@@ -47,3 +51,7 @@ fn example<T: UpCastAs<u32>>() {
     let _ = T::from(10u64); // Error.
 }
 ```
+
+## License
+
+MIT

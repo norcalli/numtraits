@@ -5,6 +5,6 @@ description = "Useful trait(s) for number types."
 authors = ["Ashkan Kiani <ashkan.k.kiani@gmail.com>"]
 license = "MIT"
 
-documentation = "README.md"
+documentation = "http://norcalli.github.io/rust/numtraits/"
 homepage = "https://github.com/norcalli/numtraits"
 repository = "https://github.com/norcalli/numtraits"
