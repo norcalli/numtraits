@@ -1,6 +1,9 @@
 # numtraits
 
+
 ## Overview
+
+[Documentation.](http://norcalli.github.io/rust/numtraits/)
 
 This module defines a trait `UpCastAs<T>` which allows one to upcast (as in only types which make sense
 and can fit it another are allowed) between primitive types. These follow a simple hierarchy:
@@ -41,8 +44,8 @@ fn example<T: UpCastAs<u32>>() {
 }
 ```
 
-You can also call from directly from `T`, *but it will not follow the implication rules*, it'll
-only recognize casting from `V` if `T: UpCastAs<V>`, so this is *not recommended*:
+You can also call from directly from `T`, **but it will not follow the implication rules**, it'll
+only recognize casting from `V` if `T: UpCastAs<V>`, so this is **not recommended**:
 
 ```rust
 fn example<T: UpCastAs<u32>>() {

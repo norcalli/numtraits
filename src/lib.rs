@@ -37,8 +37,8 @@
 //! }
 //! ```
 //! 
-//! You can also call from directly from `T`, *but it will not follow the implication rules*, it'll
-//! only recognize casting from `V` if `T: UpCastAs<V>`, so this is *not recommended*:
+//! You can also call from directly from `T`, **but it will not follow the implication rules**, it'll
+//! only recognize casting from `V` if `T: UpCastAs<V>`, so this is **not recommended**:
 //! 
 //! ```
 //! fn example<T: UpCastAs<u32>>() {
