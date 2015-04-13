@@ -1,4 +1,10 @@
 [package]
 name = "numtraits"
 version = "0.0.1"
+description = "Useful trait(s) for number types."
 authors = ["Ashkan Kiani <ashkan.k.kiani@gmail.com>"]
+license = "MIT"
+
+documentation = "README.md"
+homepage = "https://github.com/norcalli/numtraits"
+repository = "https://github.com/norcalli/numtraits"
